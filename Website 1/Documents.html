@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0dbbec4390.js" crossorigin="anonymous"></script>
+    <title>DRRR</title>
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+        .headers {
+            display: inline;
+            padding: 14px 19px;
+            text-align: center;
+            font-family: Verdana;
+            float: left;
+            margin: 20px;
+            list-style-type: none;
+            text-decoration: none;
+            color: black;
+        }
+
+        .headers a:hover {
+            background-color: rgb(193, 197, 201);
+            border-radius: 20px 20px;
+            padding: 14px 20px;
+        }
+
+        .header1 a.active {
+            background-color: rgb(213, 215, 218);
+            border-radius: 20px 20px;
+            padding: 14px 30px;
+        }
+
+        .DisasterLogo {
+            width: 280px;
+            position: relative;
+            float: left;
+        }
+
+        .headerBfp {
+            display: block;
+            object-fit: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 50%;
+            position: relative;
+            
+        }
+
+        .EmergencyHead {
+            width: 100%;
+            height: 20%;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: block;
+        }
+
+        #phone {
+           font-size: 50px;
+           position: absolute;
+           top:  78%;
+           left: 16%;
+           color:  white;
+        }
+
+        #phone, .e-hotline, .e-fr, .e-fr1 {
+            display: inline-block;
+        }
+
+        .e-hotline {
+            font-size:35px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            position: absolute;
+            color: white;
+            top: -3%;
+            left: 5%;
+        }
+
+        .e-fr {
+            font-size: 60px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            position: absolute;
+            color: white;
+            top: -4%;
+            left: 27%;
+        }
+
+        .e-fr1 {
+            font-size: 25px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            position: absolute;
+            color: white;
+            top: -1%;
+            left: 38%;
+                       
+        }
+
+        .myframe {
+            width: 460px;
+            height: 340px;
+            position: absolute;
+            top: 100px;
+        }
+
+        .myframe1 {
+            width: 460px;
+            height: 340px;
+            position: absolute;
+            top: 450px;
+        }
+
+        .myframe2 {
+            width: 460px;
+            height: 340px;
+            position: absolute;
+            top: 800px;
+        }
+
+        .myframe3 {
+            width: 460px;
+            height: 340px;
+            position: absolute;
+            top: 1150px;
+        }
+
+        .myframe , .myframe1, .myframe2, .myframe3 {
+            left:  -200px;
+        }
+
+        .content {
+            margin-left: 300px;
+            margin-top: 30px;
+            padding: 1px 16px;
+            width: 100%;
+            text-align: justify;
+            max-width: 1060px;
+        }
+
+        .content h1 {
+            color: black;
+            font-size: 38px;
+            font-family: sans-serif;
+            font-style: italic;
+        }
+
+        p {
+            font-family: 'Trebuchet MS', sans-serif;
+            font-size: 18px;
+            color: rgb(73, 72, 72);
+        }
+
+        table {
+            position: inherit;
+            margin: 20px;
+            border-collapse: collapse;
+            padding: 14px 20px;
+            font-size: 20px;
+            font-family: sans-serif;
+            text-align: center;
+            width: 100%;
+        }
+
+        table .col1 {
+            background-color: coral;
+            font-size: 30px;
+        }
+
+        .disaster {
+            background-color: coral;
+            font-size: 20px;
+        }
+        
+        td {
+            background-color: rgb(235, 233, 233);
+        }
+
+        td, th {
+            color: black;
+            border: 1px solid black;
+        }
+
+        th {
+            padding: 20px;
+        }
+        .content img{
+            width: 140px;
+            height: 140px;
+        }
+       
+        footer {
+            position: absolute;
+            padding: 10px;
+            background-color: black;
+            bottom: -50%;
+            left: -19.4%;
+            width: 1800px;
+            height: 90px;
+            overflow: hidden;
+        }
+
+        footer .rythm {
+            position: absolute;
+            bottom: -20px;
+            right: 150px;
+            object-fit: contain;
+            height: 153px;
+            width: 160;
+        }
+
+        footer p {
+            font-size: 30px;
+            color: white;
+        }
+
+        small {
+            font-size: 15px;
+        }
+
+        footer, footer p, small {
+            float: right;
+            margin-right:  70px;
+        }
+
+        a {
+            font-size: 20px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="header1">
+        <ul>
+            <img class="DisasterLogo" src="image/drrr_title.png">
+            <li class="headers"><a href="Index.html">About</a></li>
+            <li class="headers"><a href="Knowledge.html">Knowledge</a></li>
+            <li class="headers"><a href="Plan Mangement.html">Plan Management</a></li>
+            <li class="headers"><a class="active" href="Documents.html">Documents</a></li>
+        <ul>
+    </div>
+    <img class="headerBfp" src="http://ncr.bfp.gov.ph/wp-content/uploads/2020/10/Temporary-Banner.jpg"> 
+    <img class="EmergencyHead" src="image/header.png">
+    <i id="phone" class="fa fa-phone-alt" >
+    <h1 class="e-hotline"><sub>EMERGENCY</sub><br>HOTLINE</h1>
+    <h2 class="e-fr">911</h2>
+    <h2 class="e-fr1"> FIRE & RESCUE</h2>
+    <div class="frame">
+        <iframe class="myframe" src="https://www.youtube.com/embed/s7oCb1aqEzQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="myframe1" src="https://www.youtube.com/embed/6XD77VpBEx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="myframe2" src="https://www.youtube.com/embed/wjBdIo-nVVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="myframe3" src="https://www.youtube.com/embed/wYAsNgEdSmU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="content">
+        <h1>Documentations of Disasters in the Philippines</h1>
+        <table>
+            <tr class="disaster">
+                <th colspan="5">Types of Disasters</th>
+            </tr>
+            <tr>
+                <th>Fire</th>
+                <th><img src="https://cdnuploads.aa.com.tr/uploads/Contents/2018/07/25/thumbs_b_c_3652f0ca8c51169731716c83c9b40870.jpg?v=072310"></th>
+                <th><img src="https://media.philstar.com/photos/2019/10/06/star-city-fire-arson-eyed_2019-10-06_14-59-14.jpg"></th>
+                <th><img src="http://st-1.akipress.org/127/.storage/ennews/images/World/08107580b687ba5d68bd9e4d4740a9b1.jpg"></th>
+                <th><img src="https://mb.com.ph/wp-content/uploads/2020/11/viber_image_2020-11-02_15-57-59.jpg"></th>
+            </tr>
+    
+            <tr>
+                <th>Flashfloods</th>
+                <th><img src="https://floodlist.com/wp-content/uploads/2013/04/philippines-floods-2009.jpg"></th>
+                <th><img src="https://www.benarnews.org/english/news/philippine/tropical-storm-Tembin-12222017141352.html/171222-PH-floods-1-1000.jpg/@@images/image"></th>
+                <th><img src="https://cdn.vox-cdn.com/uploads/chorus_asset/file/17087444/693573.jpg"></th>
+                <th><img src="https://www.undrr.org/sites/default/files/styles/landscape_16_9/public/27965_largeImage.jpg?itok=2EKmMrtm"></th>
+            </tr>
+    
+            <tr>
+                <th>Earthquake</th>
+                <th><img src="https://www.vaticannews.va/content/dam/vaticannews/agenzie/images/afp/2019/04/23/17/topshot-philippines-quake-1556033934460.jpg/_jcr_content/renditions/cq5dam.thumbnail.cropped.1500.844.jpeg"></th>
+                <th><img src="https://dynaimage.cdn.cnn.com/cnn/c_fill,g_auto,w_1200,h_675,ar_16:9/https%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F190422132531-philippines-earthquake-damage.jpg"></th>
+                <th><img src="https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F1155545686%2F0x0.jpg"></th>
+                <th><img src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iRzGrkh6q8BQ/v1/1000x-1.jpg"></th>
+            </tr>
+    
+            <tr>
+                <th>Pandemic</th>
+                <th><img src="https://www.sciencenews.org/wp-content/uploads/2020/03/031120_jl_coronavirus-pandemic_feat_1500-1028x579.jpg"></th>
+                <th><img src="https://merriam-webster.com/assets/mw/images/gallery/gal-wap-slideshow-slide/faces-with-medical-masks-7906-0e73cb35f1cc34c137f1b8aac5d4098b@1x.jpg"></th>
+                <th><img src="https://i.natgeofe.com/n/bf1a9829-aecf-48db-8a0e-1d4e5eb3dee5/01_pandemic_rts33nn3.jpg"></th>
+                <th><img src="https://www.aljazeera.com/wp-content/uploads/2021/05/2021-05-12T065151Z_1751302402_RC26EN99Y2B5_RTRMADP_3_HEALTH-CORONAVIRUS-INDIA-1.jpg?resize=1200%2C630"></th>
+            </tr>
+        </table>
+        
+        <h1>References</h1>
+        <a href="https://cnnphilippines.com/news/2021/3/3/bfp-fire-preventing-month-2021-reminders.html">Fire prevention month 2021</a>
+        <a href="http://ncr.bfp.gov.ph/?page_id=124">Bureau Fire Protection NCR</a>
+        <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6512217/">Importance of Education in Disaster</a>
+        <a href="https://region12.bfp.gov.ph/2018/bfp-xii-forms-its-own-special-rescue-unit-sru/">BFP REGION 12 Special Reaction Forces</a>
+        <a href="https://region9.bfp.gov.ph/special-rescue-unit/">BFP REGION Special Rescue Unit</a>
+        <a href="https://region9.bfp.gov.ph/special-rescue-unit/">BFP REGION Special Rescue Unit</a>
+        <a href="http://ncr.bfp.gov.ph/?p=2778">Bureau Fire Protection</a>
+        <a href="https://www.ready.gov/home-fires">Learn About fires</a>
+        <a href="https://www.science.org.au/curious/earth-environment/why-fires-burn">About Fires</a>
+        <a href="https://www.planet.com/pulse/monitoring-natural-disasters-in-the-philippines/">About Fires</a>
+        <a href="https://reliefweb.int/report/philippines/philippines-2020-significant-events-snapshot-14-january-2021">Fire report 2020</a>
+        <a href="https://www.disastercenter.com/guide/fire.html">Disaster Plan Management</a>
+        <a href="https://www.nationwide.com/lc/resources/emergency-preparedness/articles/catastrophe-preparation">Emergency Preparedness</a>
+        <footer>
+            <img class="rythm" src="image/rythm.png">
+            <p><i>DRRR</i><br><small>Disaster Risk Reduction & Resillience</small></p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0dbbec4390.js" crossorigin="anonymous"></script>
+    <title>DRRR</title>
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+        .headers {
+            display: inline;
+            padding: 14px 19px;
+            text-align: center;
+            font-family: Verdana;
+            float: left;
+            margin: 20px;
+            list-style-type: none;
+            text-decoration: none;
+            color: black;
+        }
+
+        .headers a:hover {
+            background-color: rgb(193, 197, 201);
+            border-radius: 20px 20px;
+            padding: 14px 20px;
+        }
+
+        .header1 a.active {
+            background-color: rgb(213, 215, 218);
+            border-radius: 20px 20px;
+            padding: 14px 30px;
+        }
+
+        .DisasterLogo {
+            width: 280px;
+            position: relative;
+            float: left;
+        }
+
+        .headerBfp {
+            display: block;
+            object-fit: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 50%;
+            position: relative;
+            
+        }
+
+        .EmergencyHead {
+            width: 100%;
+            height: 20%;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: block;
+        }
+
+        #phone {
+           font-size: 50px;
+           position: absolute;
+           top:  74%;
+           left: 16%;
+           color:  white;
+        }
+
+        #phone, .e-hotline, .e-fr, .e-fr1 {
+            display: inline-block;
+        }
+
+        .e-hotline {
+            font-size:35px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            position: absolute;
+            color: white;
+            top: -3%;
+            left: 5%;
+        }
+
+        .e-fr {
+            font-size: 60px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            position: absolute;
+            color: white;
+            top: -4%;
+            left: 25%;
+        }
+
+        .e-fr1 {
+            font-size: 25px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            position: absolute;
+            color: white;
+            top: -1%;
+            left: 35%;
+                       
+        }
+
+        .myframe {
+            width: 460px;
+            height: 340px;
+            position: absolute;
+            top: 100px;
+        }
+
+        .myframe1 {
+            width: 460px;
+            height: 340px;
+            position: absolute;
+            top: 450px;
+        }
+
+        .myframe2 {
+            width: 460px;
+            height: 340px;
+            position: absolute;
+            top: 800px;
+        }
+
+        .myframe3 {
+            width: 460px;
+            height: 340px;
+            position: absolute;
+            top: 1150px;
+        }
+
+        .myframe , .myframe1, .myframe2, .myframe3 {
+            left:  -200px;
+        }
+
+        .content {
+            margin-left: 300px;
+            margin-top: 30px;
+            padding: 1px 16px;
+            width: 100%;
+            text-align: justify;
+            max-width: 1060px;
+        }
+
+        .content h1 {
+            color: black;
+            font-size: 38px;
+            font-family: sans-serif;
+            font-style: italic;
+        }
+
+        p, .content li {
+            font-family: 'Trebuchet MS', sans-serif;
+            font-size: 18px;
+            color: rgb(73, 72, 72);
+        }
+
+        .content img {
+            width: 250px;
+            height: 200px;
+            display: inline-block;
+        }
+
+        .content li {
+            margin-top: 15px;
+        }
+
+        .content h2 {
+            color: black;
+            font-size: 24px;
+            font-family: sans-serif;
+        }
+
+        footer {
+            position: absolute;
+            padding: 10px;
+            background-color: black;
+            bottom: -50%;
+            left: -19.4%;
+            width: 1800px;
+            height: 90px;
+            overflow: hidden;
+        }
+
+        footer .rythm {
+            position: absolute;
+            bottom: -20px;
+            right: 150px;
+            object-fit: contain;
+            height: 153px;
+            width: 160;
+        }
+
+        footer p {
+            font-size: 30px;
+            color: white;
+        }
+
+        small {
+            font-size: 15px;
+        }
+
+        footer, footer p, small {
+            float: right;
+            margin-right:  70px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header1">
+        <ul>
+            <img class="DisasterLogo" src="image/drrr_title.png">
+            <li class="headers"><a href="Index.html">About</a></li>
+            <li class="headers"><a href="Knowledge.html">Knowledge</a></li>
+            <li class="headers"><a class="active" href="Plan Mangement.html">Plan Management</a></li>
+            <li class="headers"><a href="Documents.html">Documents</a></li>
+        <ul>
+    </div>
+    <img class="headerBfp" src="http://ncr.bfp.gov.ph/wp-content/uploads/2020/10/Temporary-Banner.jpg"> 
+    <img class="EmergencyHead" src="image/header.png">
+    <i id="phone" class="fa fa-phone-alt" >
+    <h1 class="e-hotline"><sub>EMERGENCY</sub><br>HOTLINE</h1>
+    <h2 class="e-fr">911</h2>
+    <h2 class="e-fr1"> FIRE & RESCUE</h2>
+    <div class="frame">
+        <iframe class="myframe" src="https://www.youtube.com/embed/s7oCb1aqEzQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="myframe1" src="https://www.youtube.com/embed/6XD77VpBEx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="myframe2" src="https://www.youtube.com/embed/wjBdIo-nVVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="myframe3" src="https://www.youtube.com/embed/wYAsNgEdSmU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="content">
+        <h1>Family Disaster Plan</h1>
+        <p>The Philippines is vulnerable to different natural and man-made disasters including, earthquakes, flashfloods, typhoon, fire, sea-level rise, drought ,and landslides. There are more than 20 typhoons take place every year in the Philippines, five of which are destructive, it affects not only the infrastructure but also human life.</p>
+        <p>On Janruary 12, 2020 the year started with sudden eruption of Taal volcano located at Batangas. Which caused an heavy ashfall in the neighboring provinces that affects Metro Manila as well. The eruption affects 500,000 people who are living within the 14 kilometre danger zone.</p>
+        <p>March 2020, COVID-19 pandemic hit the country. Three months later the national government implemented a total lockdown starting March up to June. This followed by a new implementations levels of community quarantines.</p>
+        <p>August a maginitude 6.6 earthquake hit the province of Masbate in the Bicol Region. Twenty tropical cyclones also entered the Philippines Area of Responbility with 12 making landfall. November to October nine tropical storms hit Philippines that caused floods and landslides in the same regions.</p>
+        <p>Fire is one of the most destructive manmade disasters of all time. Especially in the Philippines one of the biggest history of fire in Metro Manila is the <i>Ozone Disco fire</i> in Quezon City. Which killed 162 people.</p>
+        <p>In today's era, The Bureau Fire Protection together with the volunteer Organization continue campaigning fire prevention.</p>
+        <p>In 2013 to 2017, The BFP recorded a total of 77,724 fire incidents or an average of 15,545 fire incidents every year, 42 fire incidents a day. The cost of property damaged was P23.273 billion or 4.65 billion average every year.</p>
+        <p>Disaster are unpredictable, anytime and anywhere disaster could happen. After giving some examples and background information how disaster can be so dangerous and how much cost of human lives could be killed by an disaster. Here are the tips that you can plan out in order to be prepared.</p>
+        <h1>GO BAG <b>Emergency Preparedness kit</b></h1>
+        <p>Having an emergency kit on hand this may help your family safe during the disaster. A GO BAG is a emergency preparedness kit that is good for Three months of post disaster. A kit must consist of the following</p>
+            <li>Drinking water</li>
+            <li>First Aid kit</li>
+            <li>Clothes</li>
+            <li>Radio</li>
+            <li>Local maps</li>
+            <li>Personal Documents</li>
+            <li>Emergency Numbers</li>
+            <li>Personal Protective Equipments</li>
+        
+        <h1>Create A Disaster Plan</h1>
+        <p>Each persons in the family must know the plan when disaster strikes. Your family must outlined a plan in order to make family safe during disaster and evacuation. The four primary factors of your plans according to <a href="https://www.ready.gov/plan">ready.gov</a></p>
+            <li>Where to shelter</li>
+            <li>Where is the Evacuation site</li>
+            <li>Emergency Alers and warnings</li>
+            <li>Family Communication</li>
+            <li>Meeting place for your family gather</li>
+            <li>Emergency Exits</li>
+            <li>First Aid Training</li>
+            <li>Home pets how to evacuate with them</li>
+            <li>Identification Cards</li>
+        <footer>
+            <img class="rythm" src="image/rythm.png">
+            <p><i>DRRR</i><br><small>Disaster Risk Reduction & Resillience</small></p>
+        </footer>
+    </div>
+</body>
+</html>
