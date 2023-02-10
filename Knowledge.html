@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0dbbec4390.js" crossorigin="anonymous"></script>
+    <title>DRRR</title>
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+        .headers {
+            display: inline;
+            padding: 14px 19px;
+            text-align: center;
+            font-family: Verdana;
+            float: left;
+            margin: 20px;
+            list-style-type: none;
+            text-decoration: none;
+            color: black;
+        }
+
+        .headers a:hover {
+            background-color: rgb(193, 197, 201);
+            border-radius: 20px 20px;
+            padding: 14px 20px;
+        }
+
+        .header1 a.active {
+            background-color: rgb(213, 215, 218);
+            border-radius: 20px 20px;
+            padding: 14px 30px;
+        }
+
+        .DisasterLogo {
+            width: 280px;
+            position: relative;
+            float: left;
+        }
+
+        .headerBfp {
+            display: block;
+            object-fit: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 50%;
+            position: relative;
+            
+        }
+
+        .EmergencyHead {
+            width: 100%;
+            height: 20%;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: block;
+        }
+        /*Header*/
+        #phone {
+           font-size: 50px;
+           position: absolute;
+           top:  75%;
+           left: 16%;
+           color:  white;
+        }
+
+        #phone, .e-hotline, .e-fr, .e-fr1 {
+            display: inline-block;
+        }
+
+        .e-hotline {
+            font-size:35px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            position: absolute;
+            color: white;
+            top: -4.5%;
+            left: 5%;
+        }
+
+        .e-fr {
+            font-size: 60px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            position: absolute;
+            color: white;
+            top: -5.67%;
+            left: 25%;
+        }
+
+        .e-fr1 {
+            font-size: 25px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            position: absolute;
+            color: white;
+            top: -1.20%;
+            left: 35%;
+                       
+        }
+        /*Frame*/
+        .myframe {
+            width: 460px;
+            height: 340px;
+            position: absolute;
+            top: 100px;
+        }
+
+        .myframe1 {
+            width: 460px;
+            height: 340px;
+            position: absolute;
+            top: 450px;
+        }
+
+        .myframe2 {
+            width: 460px;
+            height: 340px;
+            position: absolute;
+            top: 800px;
+        }
+
+        .myframe3 {
+            width: 460px;
+            height: 340px;
+            position: absolute;
+            top: 1150px;
+        }
+
+        .myframe , .myframe1, .myframe2, .myframe3 {
+            left:  -200px;
+        }
+
+        .content {
+            margin-left: 300px;
+            margin-top: 30px;
+            padding: 1px 16px;
+            width: 100%;
+            text-align: justify;
+            max-width: 1060px;
+        }
+
+        .content h1 {
+            color: black;
+            font-size: 38px;
+            font-family: sans-serif;
+            font-style: italic;
+        }
+
+        p, .content li {
+            font-family: 'Trebuchet MS', sans-serif;
+            font-size: 18px;
+            color: rgb(73, 72, 72);
+        }
+        .content h2 {
+            color: black;
+            font-size: 24px;
+            font-family: sans-serif;
+        }
+
+        table {
+            position: inherit;
+            margin: 20px;
+            border-collapse: collapse;
+            padding: 14px 20px;
+            font-size: 20px;
+            font-family: sans-serif;
+            text-align: center;
+            width: 100%;
+            border-style: inset;
+        }
+
+        table .col1 {
+            background-color: coral;
+            font-size: 30px;
+        }
+
+        .disaster {
+            background-color: coral;
+            font-size: 20px;
+        }
+        
+        td {
+            background-color: rgb(235, 233, 233);
+        }
+
+        td, th {
+            color: black;
+            border: 1px solid black;
+            padding: 15px;
+        }
+
+        footer {
+            position: absolute;
+            padding: 10px;
+            background-color: black;
+            bottom: -50%;
+            left: -19.4%;
+            width: 1800px;
+            height: 90px;
+            overflow: hidden;
+        }
+
+        footer img {
+            position: absolute;
+            bottom: -20px;
+            right: 150px;
+            object-fit: contain;
+            height: 152.7px;
+            width: 160;
+        }
+
+        footer p {
+            font-size: 30px;
+            color: white;
+        }
+
+        small {
+            font-size: 15px;
+        }
+
+        footer, footer p, small {
+            float: right;
+            margin-right:  70px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header1">
+        <ul>
+            <img class="DisasterLogo" src="image/drrr_title.png">
+            <li class="headers"><a href="index.html">About</a></li>
+            <li class="headers"><a class="active" href="Knowledge.html">Knowledge</a></li>
+            <li class="headers"><a href="Plan Mangement.html">Plan Management</a></li>
+            <li class="headers"><a href="Documents.html">Documents</a></li>
+        <ul>
+    </div>
+    <img class="headerBfp" src="http://ncr.bfp.gov.ph/wp-content/uploads/2020/10/Temporary-Banner.jpg"> 
+    <img class="EmergencyHead" src="image/header.png">
+    <i id="phone" class="fa fa-phone-alt" >
+    <h1 class="e-hotline"><sub>EMERGENCY</sub><br>HOTLINE</h1>
+    <h2 class="e-fr">911</h2>
+    <h2 class="e-fr1"> FIRE & RESCUE</h2>
+    <div class="frame">
+        <iframe class="myframe" src="https://www.youtube.com/embed/s7oCb1aqEzQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="myframe1" src="https://www.youtube.com/embed/6XD77VpBEx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="myframe2" src="https://www.youtube.com/embed/wjBdIo-nVVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="myframe3" src="https://www.youtube.com/embed/wYAsNgEdSmU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="content">
+        <h1>Get to know more about fire</h1>
+        <p><b>Fire spread faster!</b> in less than 30 seconds a small fire can turn into a big fire. This only take a minutes for thick black smoke fill your entire room.</p>
+        <p>In just two minutes a fire can be a life threatening into our properties and lives of our families. The heat are more threatening than the flames. The head can reach to 100 degrees at floor level. Inhaling this could scorch your lungs and melt your clothes</p>
+        <p>A fire is very dark, When the fire starts it produce black smoke and completely zero visibility. A fire is very deadly, smoke and toxic gasses can kill people. It produces a posonous gasses that makes you disoriented and drwosy.</p>
+        <p><b><i>TAKE NOTE:</i></b> In a series of fire, always remember that only second counts. Make sure to practice making a exit plan route to your home in order to evacuate quickly.</p>
+        
+        <h2>How Fire was created?</h2>
+        <p>Fire was created in three ingridients(3);<i> Heat, Oxygen, Fuel.</i></p>
+        <p>When this three are present, we can now create a fire.</p>
+        <p><b><i> TAKE NOTE:</i></b> For additional information, the oxygen should be <i> less than 16% oxygen content</i> in order to burn. Inside of the  room, if oxygen less than 16% and heat and fuel were present this could start a room to fire.  </p>
+    
+    <h2>How Fire Put Out?</h2>
+        <p>In order to put out the fire you need to remove one of the ingridients in the fire triangle.</p>
+        <p> We all know that water plays the primary role in putting out fires. Why? Because it helps to cool it down in order to lessen the heat.</p>
+        <p>But in some cases the firefighters uses different types of chemical detergents to put out the fire quickly. The following are examples that uses by our firefighters: <i>Foam Fire, Carbon Dioxide, Nitrogen, Dry chemical</i></p>
+
+        <h2>Emergency Hotlines</h2>
+        <table>
+            <tr class="col1">
+                <th colspan="3">Incase of Emergency</th>
+            </tr>
+            <tr>
+                <th>National Hotline</th>
+                <th>MMDA</th>
+                <th>Red Cross</th>
+            </tr>
+            <tr>
+                <td>911</td>
+                <td>136</td>
+                <td>143</td>
+            </tr>
+            <tr>
+                <th>Coast Guard</th>
+                <th>BFP</th>
+                <th>PNP</th>
+            </tr>
+        
+            <tr>
+                <td>(632)-911-5061</td>
+                <td>117<br>(632)-426-0219</td>
+                <td>117<br>(02)-723-0401</td>
+            </tr>
+        </table>
+        </div>
+        <footer>
+            <img src="image/rythm.png">
+            <p><i>DRRR</i><br><small>Disaster Risk Reduction & Resillience</small></p>
+        </footer>
+    </div>
+</body>
+</html>
